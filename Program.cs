@@ -42,6 +42,11 @@ namespace basics
 
             #endregion
 
+            #region 6th q
+            string Sentence = $"Book: {title2} ,pages: {pages}";
+            Console.WriteLine(Sentence);
+
+            #endregion
 
 
 
