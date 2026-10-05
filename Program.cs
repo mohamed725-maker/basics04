@@ -115,6 +115,17 @@ namespace basics
 
             #endregion
 
+            #region 13th 
+
+            int j = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                j++;
+            }
+            while (j < 3);
+
+            #endregion
 
 
 
