@@ -160,6 +160,19 @@ namespace basics
                 Console.WriteLine(books[i]);
             }
             #endregion
+            #region 17th q
+            static void PrintFirstBook(string[] books)
+            {
+
+                if (books.Length == 0)
+                {
+                    return;
+                }
+                Console.WriteLine(books[0]);
+            }
+            PrintFirstBook(books);
+
+            #endregion
 
 
 
