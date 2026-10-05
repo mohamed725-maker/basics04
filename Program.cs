@@ -94,6 +94,17 @@ namespace basics
 
             #endregion
 
+            #region 11th q
+
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine(i + 1 + "." + books[i]);
+
+            }
+            #endregion
+
+
 
 
         }
