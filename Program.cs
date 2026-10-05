@@ -34,6 +34,14 @@ namespace basics
 
             #endregion
 
+            #region 5th q
+            string title2 = "Clean Code";
+            int pages = 464;
+            string sentence = "Book: " + title2 + "," + "pages: " + pages;
+            Console.WriteLine(sentence);
+
+            #endregion
+
 
 
 
