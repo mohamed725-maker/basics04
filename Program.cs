@@ -1,4 +1,6 @@
-﻿namespace basics
+﻿using System.Text;
+
+namespace basics
 {
     class Program
     {
@@ -17,6 +19,16 @@
             string second = "Clean Code";
             Console.WriteLine(ReferenceEquals(first, second));
             #endregion
+
+            #region 3rd q
+            StringBuilder stringBuilder = new StringBuilder();
+            stringBuilder.Append("Book List");
+            stringBuilder.Append("-Updated");
+            Console.WriteLine(stringBuilder);
+
+            #endregion
+
+
 
 
 
