@@ -28,6 +28,12 @@ namespace basics
 
             #endregion
 
+            #region 4th q
+            stringBuilder.Replace("Book List", "library");
+            Console.WriteLine(stringBuilder);
+
+            #endregion
+
 
 
 
